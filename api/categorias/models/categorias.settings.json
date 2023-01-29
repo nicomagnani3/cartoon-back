@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categorias",
+  "info": {
+    "name": "categorias",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categoria": {
+      "type": "string"
+    },
+    "productos": {
+      "via": "categorias",
+      "collection": "productos",
+      "dominant": true
+    },
+    "imagenURL": {
+      "type": "string"
+    },
+    "destacados": {
+      "via": "categorias",
+      "collection": "destacados"
+    },
+    "ubicacion": {
+      "type": "string"
+    }
+  }
+}

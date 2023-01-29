@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "destacados",
+  "info": {
+    "name": "Destacados",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "categorias": {
+      "via": "destacados",
+      "collection": "categorias",
+      "dominant": true
+    },
+    "url": {
+      "type": "string"
+    },
+    "numero": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "productos",
+  "info": {
+    "name": "productos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "categorias": {
+      "via": "productos",
+      "collection": "categorias"
+    },
+    "url": {
+      "type": "string"
+    },
+    "numero": {
+      "type": "string"
+    }
+  }
+}
