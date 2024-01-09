@@ -30,6 +30,5 @@
     "uuid": "fad1b0a4-0c8a-4a0e-a7c7-c9dcebb9594c",
     "template": "https://github.com/strapi/strapi-template-ecommerce"
   },
-
   "license": "MIT"
 }
