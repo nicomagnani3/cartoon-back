@@ -1,10 +1,4 @@
 {
-  "_args": [
-    [
-      "strapi-plugin-i18n@3.6.5",
-      "/home/nmagnani/proyectos/cartoon-back"
-    ]
-  ],
   "_from": "strapi-plugin-i18n@3.6.5",
   "_id": "strapi-plugin-i18n@3.6.5",
   "_inBundle": false,
@@ -25,17 +19,20 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/strapi-plugin-i18n/-/strapi-plugin-i18n-3.6.5.tgz",
-  "_spec": "3.6.5",
+  "_shasum": "4ef3ab59d33a9094e91bd9a304d18d756806e70f",
+  "_spec": "strapi-plugin-i18n@3.6.5",
   "_where": "/home/nmagnani/proyectos/cartoon-back",
   "author": {
     "name": "A Strapi developer"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "lodash": "4.17.20",
     "p-map": "4.0.0",
     "pluralize": "8.0.0",
     "strapi-utils": "3.6.5"
   },
+  "deprecated": "Strapi V3 is no longer maintained",
   "description": "This plugin enables to create, to read and to update content in different languages, both from the Admin Panel and from the API",
   "engines": {
     "node": ">=10.16.0 <=14.x.x",

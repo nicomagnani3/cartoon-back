@@ -1,10 +1,4 @@
 {
-  "_args": [
-    [
-      "strapi-plugin-upload@3.6.5",
-      "/home/nmagnani/proyectos/cartoon-back"
-    ]
-  ],
   "_from": "strapi-plugin-upload@3.6.5",
   "_id": "strapi-plugin-upload@3.6.5",
   "_inBundle": false,
@@ -25,13 +19,15 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/strapi-plugin-upload/-/strapi-plugin-upload-3.6.5.tgz",
-  "_spec": "3.6.5",
+  "_shasum": "9327b796bf0ee4c094d4f095a2f05c5c5bc22a63",
+  "_spec": "strapi-plugin-upload@3.6.5",
   "_where": "/home/nmagnani/proyectos/cartoon-back",
   "author": {
     "name": "Strapi team",
     "email": "hi@strapi.io",
     "url": "https://strapi.io"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "@buffetjs/core": "3.3.6",
     "@buffetjs/custom": "3.3.6",
@@ -63,6 +59,7 @@
     "stream-to-array": "^2.3.0",
     "uuid": "^3.2.1"
   },
+  "deprecated": "Strapi V3 is no longer maintained",
   "description": "Makes it easy to upload images and files to your Strapi Application.",
   "engines": {
     "node": ">=10.16.0 <=14.x.x",

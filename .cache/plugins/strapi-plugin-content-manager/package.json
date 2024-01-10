@@ -1,10 +1,4 @@
 {
-  "_args": [
-    [
-      "strapi-plugin-content-manager@3.6.5",
-      "/home/nmagnani/proyectos/cartoon-back"
-    ]
-  ],
   "_from": "strapi-plugin-content-manager@3.6.5",
   "_id": "strapi-plugin-content-manager@3.6.5",
   "_inBundle": false,
@@ -25,7 +19,8 @@
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.6.5.tgz",
-  "_spec": "3.6.5",
+  "_shasum": "ad4c3e6a27dbf89ce4c28a3ec3d4e78dff699570",
+  "_spec": "strapi-plugin-content-manager@3.6.5",
   "_where": "/home/nmagnani/proyectos/cartoon-back",
   "author": {
     "name": "Strapi team",
@@ -35,6 +30,7 @@
   "bugs": {
     "url": "https://github.com/strapi/strapi/issues"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "@buffetjs/core": "3.3.6",
     "@buffetjs/custom": "3.3.6",
@@ -76,6 +72,7 @@
     "strapi-utils": "3.6.5",
     "yup": "^0.32.9"
   },
+  "deprecated": "Strapi V3 is no longer maintained",
   "description": "A powerful UI to easily manage your data.",
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
