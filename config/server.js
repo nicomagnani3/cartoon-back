@@ -6,6 +6,6 @@ module.exports = ({ env }) => ({
       secret: env('ADMIN_JWT_SECRET', '192c1dd3cc7bb069706ee4a8f0199ca6'),
     },
     port: 1337,
-    url: "https://cartoon-tag.onrender.com/admin"
+    url: "https://cartoon-tag.onrender.com"
     },
 });
